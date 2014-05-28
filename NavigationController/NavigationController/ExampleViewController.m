@@ -27,6 +27,10 @@
         [self performSegueWithIdentifier:@"toMyViewController1" sender:self];
     }
 }
+
+/*
+ To go direcly to MyViewController2
+ */
 - (IBAction)jumpToViewController:(id)sender {
     MyViewController2 *vc=[self.storyboard instantiateViewControllerWithIdentifier:@"myVC2"];
     [self.navigationController pushViewController:vc animated:YES];
