@@ -1,17 +1,14 @@
 //
-//  ExampleView.h
-//  DrawingTest
+//  MyView.h
+//  ImageZoomExample
 //
-//  Created by Javier Panchi on 30/05/2014.
+//  Created by Javier Panchi on 31/05/2014.
 //  Copyright (c) 2014 Mighty-Ideas. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ExampleView : UIView
-@property(strong,nonatomic) NSArray *coordinates;
+@interface MyView : UIView
 @property (nonatomic) CGFloat scale;
 -(void)pinch:(UIPinchGestureRecognizer*) gesture;
-
-
 @end

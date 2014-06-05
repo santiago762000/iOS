@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD9F7CA6193F021100D35C45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD9F7CA5193F021100D35C45 /* Foundation.framework */; };
+		AD9F7CA8193F021100D35C45 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD9F7CA7193F021100D35C45 /* CoreGraphics.framework */; };
+		AD9F7CAA193F021100D35C45 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD9F7CA9193F021100D35C45 /* UIKit.framework */; };
+		AD9F7CB0193F021100D35C45 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AD9F7CAE193F021100D35C45 /* InfoPlist.strings */; };
+		AD9F7CB2193F021100D35C45 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9F7CB1193F021100D35C45 /* main.m */; };
+		AD9F7CB6193F021100D35C45 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9F7CB5193F021100D35C45 /* AppDelegate.m */; };
+		AD9F7CB9193F021100D35C45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD9F7CB7193F021100D35C45 /* Main.storyboard */; };
+		AD9F7CBC193F021100D35C45 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9F7CBB193F021100D35C45 /* ViewController.m */; };
+		AD9F7CBE193F021100D35C45 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD9F7CBD193F021100D35C45 /* Images.xcassets */; };
+		AD9F7CC5193F021100D35C45 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD9F7CC4193F021100D35C45 /* XCTest.framework */; };
+		AD9F7CC6193F021100D35C45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD9F7CA5193F021100D35C45 /* Foundation.framework */; };
+		AD9F7CC7193F021100D35C45 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD9F7CA9193F021100D35C45 /* UIKit.framework */; };
+		AD9F7CCF193F021100D35C45 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AD9F7CCD193F021100D35C45 /* InfoPlist.strings */; };
+		AD9F7CD1193F021100D35C45 /* BorrarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9F7CD0193F021100D35C45 /* BorrarTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD9F7CC8193F021100D35C45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD9F7C9A193F021100D35C45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD9F7CA1193F021100D35C45;
+			remoteInfo = Borrar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD9F7CA2193F021100D35C45 /* Borrar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Borrar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD9F7CA5193F021100D35C45 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AD9F7CA7193F021100D35C45 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AD9F7CA9193F021100D35C45 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AD9F7CAD193F021100D35C45 /* Borrar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Borrar-Info.plist"; sourceTree = "<group>"; };
+		AD9F7CAF193F021100D35C45 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AD9F7CB1193F021100D35C45 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AD9F7CB3193F021100D35C45 /* Borrar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Borrar-Prefix.pch"; sourceTree = "<group>"; };
+		AD9F7CB4193F021100D35C45 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AD9F7CB5193F021100D35C45 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AD9F7CB8193F021100D35C45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD9F7CBA193F021100D35C45 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AD9F7CBB193F021100D35C45 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AD9F7CBD193F021100D35C45 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AD9F7CC3193F021100D35C45 /* BorrarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BorrarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD9F7CC4193F021100D35C45 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AD9F7CCC193F021100D35C45 /* BorrarTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BorrarTests-Info.plist"; sourceTree = "<group>"; };
+		AD9F7CCE193F021100D35C45 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AD9F7CD0193F021100D35C45 /* BorrarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BorrarTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD9F7C9F193F021100D35C45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD9F7CA8193F021100D35C45 /* CoreGraphics.framework in Frameworks */,
+				AD9F7CAA193F021100D35C45 /* UIKit.framework in Frameworks */,
+				AD9F7CA6193F021100D35C45 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD9F7CC0193F021100D35C45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD9F7CC5193F021100D35C45 /* XCTest.framework in Frameworks */,
+				AD9F7CC7193F021100D35C45 /* UIKit.framework in Frameworks */,
+				AD9F7CC6193F021100D35C45 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD9F7C99193F021100D35C45 = {
+			isa = PBXGroup;
+			children = (
+				AD9F7CAB193F021100D35C45 /* Borrar */,
+				AD9F7CCA193F021100D35C45 /* BorrarTests */,
+				AD9F7CA4193F021100D35C45 /* Frameworks */,
+				AD9F7CA3193F021100D35C45 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD9F7CA3193F021100D35C45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD9F7CA2193F021100D35C45 /* Borrar.app */,
+				AD9F7CC3193F021100D35C45 /* BorrarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD9F7CA4193F021100D35C45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD9F7CA5193F021100D35C45 /* Foundation.framework */,
+				AD9F7CA7193F021100D35C45 /* CoreGraphics.framework */,
+				AD9F7CA9193F021100D35C45 /* UIKit.framework */,
+				AD9F7CC4193F021100D35C45 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD9F7CAB193F021100D35C45 /* Borrar */ = {
+			isa = PBXGroup;
+			children = (
+				AD9F7CB4193F021100D35C45 /* AppDelegate.h */,
+				AD9F7CB5193F021100D35C45 /* AppDelegate.m */,
+				AD9F7CB7193F021100D35C45 /* Main.storyboard */,
+				AD9F7CBA193F021100D35C45 /* ViewController.h */,
+				AD9F7CBB193F021100D35C45 /* ViewController.m */,
+				AD9F7CBD193F021100D35C45 /* Images.xcassets */,
+				AD9F7CAC193F021100D35C45 /* Supporting Files */,
+			);
+			path = Borrar;
+			sourceTree = "<group>";
+		};
+		AD9F7CAC193F021100D35C45 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD9F7CAD193F021100D35C45 /* Borrar-Info.plist */,
+				AD9F7CAE193F021100D35C45 /* InfoPlist.strings */,
+				AD9F7CB1193F021100D35C45 /* main.m */,
+				AD9F7CB3193F021100D35C45 /* Borrar-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AD9F7CCA193F021100D35C45 /* BorrarTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD9F7CD0193F021100D35C45 /* BorrarTests.m */,
+				AD9F7CCB193F021100D35C45 /* Supporting Files */,
+			);
+			path = BorrarTests;
+			sourceTree = "<group>";
+		};
+		AD9F7CCB193F021100D35C45 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD9F7CCC193F021100D35C45 /* BorrarTests-Info.plist */,
+				AD9F7CCD193F021100D35C45 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD9F7CA1193F021100D35C45 /* Borrar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD9F7CD4193F021100D35C45 /* Build configuration list for PBXNativeTarget "Borrar" */;
+			buildPhases = (
+				AD9F7C9E193F021100D35C45 /* Sources */,
+				AD9F7C9F193F021100D35C45 /* Frameworks */,
+				AD9F7CA0193F021100D35C45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Borrar;
+			productName = Borrar;
+			productReference = AD9F7CA2193F021100D35C45 /* Borrar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD9F7CC2193F021100D35C45 /* BorrarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD9F7CD7193F021100D35C45 /* Build configuration list for PBXNativeTarget "BorrarTests" */;
+			buildPhases = (
+				AD9F7CBF193F021100D35C45 /* Sources */,
+				AD9F7CC0193F021100D35C45 /* Frameworks */,
+				AD9F7CC1193F021100D35C45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD9F7CC9193F021100D35C45 /* PBXTargetDependency */,
+			);
+			name = BorrarTests;
+			productName = BorrarTests;
+			productReference = AD9F7CC3193F021100D35C45 /* BorrarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD9F7C9A193F021100D35C45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Mighty-Ideas";
+				TargetAttributes = {
+					AD9F7CC2193F021100D35C45 = {
+						TestTargetID = AD9F7CA1193F021100D35C45;
+					};
+				};
+			};
+			buildConfigurationList = AD9F7C9D193F021100D35C45 /* Build configuration list for PBXProject "Borrar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD9F7C99193F021100D35C45;
+			productRefGroup = AD9F7CA3193F021100D35C45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD9F7CA1193F021100D35C45 /* Borrar */,
+				AD9F7CC2193F021100D35C45 /* BorrarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD9F7CA0193F021100D35C45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD9F7CBE193F021100D35C45 /* Images.xcassets in Resources */,
+				AD9F7CB0193F021100D35C45 /* InfoPlist.strings in Resources */,
+				AD9F7CB9193F021100D35C45 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD9F7CC1193F021100D35C45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD9F7CCF193F021100D35C45 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD9F7C9E193F021100D35C45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD9F7CBC193F021100D35C45 /* ViewController.m in Sources */,
+				AD9F7CB6193F021100D35C45 /* AppDelegate.m in Sources */,
+				AD9F7CB2193F021100D35C45 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD9F7CBF193F021100D35C45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD9F7CD1193F021100D35C45 /* BorrarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD9F7CC9193F021100D35C45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD9F7CA1193F021100D35C45 /* Borrar */;
+			targetProxy = AD9F7CC8193F021100D35C45 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD9F7CAE193F021100D35C45 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD9F7CAF193F021100D35C45 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AD9F7CB7193F021100D35C45 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD9F7CB8193F021100D35C45 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD9F7CCD193F021100D35C45 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD9F7CCE193F021100D35C45 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD9F7CD2193F021100D35C45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AD9F7CD3193F021100D35C45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD9F7CD5193F021100D35C45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Borrar/Borrar-Prefix.pch";
+				INFOPLIST_FILE = "Borrar/Borrar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AD9F7CD6193F021100D35C45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Borrar/Borrar-Prefix.pch";
+				INFOPLIST_FILE = "Borrar/Borrar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AD9F7CD8193F021100D35C45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Borrar.app/Borrar";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Borrar/Borrar-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BorrarTests/BorrarTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		AD9F7CD9193F021100D35C45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Borrar.app/Borrar";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Borrar/Borrar-Prefix.pch";
+				INFOPLIST_FILE = "BorrarTests/BorrarTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD9F7C9D193F021100D35C45 /* Build configuration list for PBXProject "Borrar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD9F7CD2193F021100D35C45 /* Debug */,
+				AD9F7CD3193F021100D35C45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD9F7CD4193F021100D35C45 /* Build configuration list for PBXNativeTarget "Borrar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD9F7CD5193F021100D35C45 /* Debug */,
+				AD9F7CD6193F021100D35C45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AD9F7CD7193F021100D35C45 /* Build configuration list for PBXNativeTarget "BorrarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD9F7CD8193F021100D35C45 /* Debug */,
+				AD9F7CD9193F021100D35C45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD9F7C9A193F021100D35C45 /* Project object */;
+}

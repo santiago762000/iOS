@@ -11,19 +11,19 @@
 @implementation ExampleView
 UIBezierPath *path;
 
-#define DEFAULT_FACE_CARD_SCALE_FACTOR 0.90
 
-@synthesize faceCardScaleFactor = _faceCardScaleFactor;
 
-- (CGFloat)faceCardScaleFactor
+@synthesize scale = _scale;
+
+- (CGFloat)scale
 {
-    if (!_faceCardScaleFactor) _faceCardScaleFactor = DEFAULT_FACE_CARD_SCALE_FACTOR;
-    return _faceCardScaleFactor;
+    if (!_scale) _scale = 0.90;
+    return _scale;
 }
 
-- (void)setFaceCardScaleFactor:(CGFloat)faceCardScaleFactor
+- (void)setScale:(CGFloat)scale
 {
-    _faceCardScaleFactor = faceCardScaleFactor;
+    _scale = scale;
     [self setNeedsDisplay];
 }
 
@@ -65,8 +65,8 @@ UIBezierPath *path;
 
         if (faceImage) {
             CGRect imageRect = CGRectInset(self.bounds,
-                                           self.bounds.size.width * (1.0 - self.faceCardScaleFactor),
-                                           self.bounds.size.height * (1.0 - self.faceCardScaleFactor));
+                                           self.bounds.size.width * (1.0 - self.scale),
+                                           self.bounds.size.height * (1.0 - self.scale));
             [faceImage drawInRect:imageRect];
         }
     
@@ -77,7 +77,7 @@ UIBezierPath *path;
   //  [self setNeedsDisplay];
     if ((gesture.state == UIGestureRecognizerStateChanged) ||
         (gesture.state == UIGestureRecognizerStateEnded)) {
-        self.faceCardScaleFactor *= gesture.scale;
+        self.scale *= gesture.scale;
         gesture.scale = 1.0;
     }
 }
